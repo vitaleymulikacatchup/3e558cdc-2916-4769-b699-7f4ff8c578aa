@@ -6,7 +6,6 @@ import BaseAbout from '@/components/sections/layouts/about/BaseAbout';
 import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import NumberGridTokenomics from '@/components/sections/layouts/tokenomics/NumberGridTokenomics';
 import GradientFooter from '@/components/sections/layouts/footer/GradientFooter';
-import CentralFAQ from '@/components/sections/layouts/faq/CentralFAQ';
 import BentoFAQ from '@/components/sections/layouts/faq/BentoFAQ';
 
 const navItems = [
@@ -18,7 +17,7 @@ const navItems = [
 ];
 
 const theme: SiteTheme = {
-  styleVariant: "futuristicAndOutOfBox",
+  styleVariant: "brainRot",
   colorTemplate: 2,
   textAnimation: "slide"
 };
