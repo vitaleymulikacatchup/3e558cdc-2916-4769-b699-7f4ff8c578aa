@@ -6,12 +6,14 @@ import BaseAbout from '@/components/sections/layouts/about/BaseAbout';
 import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import NumberGridTokenomics from '@/components/sections/layouts/tokenomics/NumberGridTokenomics';
 import GradientFooter from '@/components/sections/layouts/footer/GradientFooter';
+import CentralFAQ from '@/components/sections/layouts/faq/CentralFAQ';
 
 const navItems = [
   { name: "hero", id: "hero" },
   { name: "about", id: "about" },
   { name: "how-to-buy", id: "how-to-buy" },
   { name: "tokenomics", id: "tokenomics" },
+  { name: "faq", id: "faq" },
   { name: "footer", id: "footer" }
 ];
 
@@ -38,6 +40,9 @@ export default function Home() {
       </div>
       <div id="tokenomics" data-section="tokenomics" className="scroll-mt-24">
         <NumberGridTokenomics title="Tokenomics" description="Discover our key metrics" kpiItems={[{ value: "10M", description: "Total Supply" }, { value: "2M", description: "Circulating Supply" }, { value: "1M", description: "Liquidity" }]} />
+      </div>
+      <div id="faq" data-section="faq" className="scroll-mt-24">
+        <CentralFAQ items={[{ title: "What is SpectraCoin?", content: "SpectraCoin is a neon-forward memecoin that empowers the community and enhances user experience." }, { title: "How do I buy SpectraCoin?", content: "You can buy SpectraCoin through various exchanges." }, { title: "What is the tokenomics?", content: "Our tokenomics focuses on transparency and community engagement." }]} />
       </div>
       <div id="footer" data-section="footer" className="scroll-mt-24">
         <GradientFooter items={[{ label: "Privacy Policy", onClick: () => { console.log('Privacy clicked'); } }, { label: "Terms of Use", onClick: () => { console.log('Terms clicked'); } }, { label: "Contact Us", onClick: () => { console.log('Contact clicked'); } }]} />
