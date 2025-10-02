@@ -37,7 +37,7 @@ export default function Home() {
         <HowToBuy2D variant="reveal" />
       </div>
       <div id="tokenomics" data-section="tokenomics" className="scroll-mt-24">
-        <NumberGridTokenomics title="Tokenomics" description="Discover our key metrics" tokenData={[{ value: "10M", description: "Total Supply" }, { value: "2M", description: "Circulating Supply" }, { value: "1M", description: "Liquidity" }]} />
+        <NumberGridTokenomics title="Tokenomics" description="Discover our key metrics" kpiItems={[{ value: "10M", description: "Total Supply" }, { value: "2M", description: "Circulating Supply" }, { value: "1M", description: "Liquidity" }]} />
       </div>
       <div id="footer" data-section="footer" className="scroll-mt-24">
         <GradientFooter logoText="SpectraCoin" items={[{ label: "Privacy Policy", onClick: () => { console.log('Privacy clicked'); } }, { label: "Terms of Use", onClick: () => { console.log('Terms clicked'); } }, { label: "Contact Us", onClick: () => { console.log('Contact clicked'); } }]} copyrightText="© 2023 SpectraCoin" />
