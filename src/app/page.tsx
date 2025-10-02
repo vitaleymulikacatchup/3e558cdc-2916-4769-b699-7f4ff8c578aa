@@ -18,7 +18,7 @@ const navItems = [
 ];
 
 const theme: SiteTheme = {
-  styleVariant: "futuristicAndOutOfBox",
+  styleVariant: "brainRot",
   colorTemplate: 2,
   textAnimation: "slide"
 };

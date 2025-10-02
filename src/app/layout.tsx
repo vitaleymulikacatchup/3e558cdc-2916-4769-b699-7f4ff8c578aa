@@ -29,9 +29,9 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className={`${interTight.variable} ${playfairDisplay.variable} antialiased`}> {
-        children
-      } </body>
+      <body className={`${interTight.variable} ${playfairDisplay.variable} antialiased`}>
+        { children }
+      </body>
     </html>
   );
 }
