@@ -40,7 +40,7 @@ export default function Home() {
         <NumberGridTokenomics title="Tokenomics" description="Discover our key metrics" kpiItems={[{ value: "10M", description: "Total Supply" }, { value: "2M", description: "Circulating Supply" }, { value: "1M", description: "Liquidity" }]} />
       </div>
       <div id="footer" data-section="footer" className="scroll-mt-24">
-        <GradientFooter logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/design-a-simple-high-contrast-logo-for-s-1759393460004-6903a070.jpg" logoAlt="SpectraCoin Logo" logoText="SpectraCoin" columns={[{ items: [{ label: "Privacy Policy", onClick: () => { console.log('Privacy clicked'); } }, { label: "Terms of Use", onClick: () => { console.log('Terms clicked'); } }, { label: "Contact Us", onClick: () => { console.log('Contact clicked'); } }] }]} copyrightText="© 2023 SpectraCoin" />
+        <GradientFooter logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/design-a-simple-high-contrast-logo-for-s-1759393460004-6903a070.jpg" logoAlt="SpectraCoin Logo" logoText="SpectraCoin" items={[{ label: "Privacy Policy", onClick: () => { console.log('Privacy clicked'); } }, { label: "Terms of Use", onClick: () => { console.log('Terms clicked'); } }, { label: "Contact Us", onClick: () => { console.log('Contact clicked'); } }]} copyrightText="© 2023 SpectraCoin" />
       </div>
     </SiteThemeProvider>
   );
